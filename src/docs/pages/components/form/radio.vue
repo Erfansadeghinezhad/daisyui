@@ -4,12 +4,15 @@
       components : [
         { class: 'form-control', desc: 'Container element' },
         { class: 'radio', desc: 'For radio input' },
-        { class: 'radio-mark', desc: 'For span that coms after radio input' },
       ],
       utilities : [
         { class: 'radio-primary', desc: 'Adds `primary` to radio' },
         { class: 'radio-secondary', desc: 'Adds `secondary` to radio' },
         { class: 'radio-accent', desc: 'Adds `accent` to radio' },
+        { class: 'radio-lg', desc: 'Large radio' },
+        { class: 'radio-md', desc: 'Medium radio (default)' },
+        { class: 'radio-sm', desc: 'Small radio' },
+        { class: 'radio-xs', desc: 'Extra small radio' },
       ]
     }"/>
     <Wrapper title="input" classes="flex flex-col space-y-2 max-w-xs">
@@ -45,11 +48,19 @@
         <FormControl>
           <label class="label">
             <span class="label-text">Disabled</span>
-            <input type="radio" name="opt" checked="checked" class="radio radio-accent" value="" disabled>
-            <span class="radio-mark"></span>
+            <input type="radio" name="opt" checked="checked" class="radio" value="" disabled>
           </label>
         </FormControl>
       </div>
     </Wrapper>
+
+
+    <Wrapper title="radio sizes" classes="flex flex-col space-y-2 max-w-xs">
+      <Radio classes="radio-xs" />
+      <Radio classes="radio-sm" />
+      <Radio classes="radio-md" />
+      <Radio classes="radio-lg" />
+    </Wrapper>
+
   </div>
 </template>
