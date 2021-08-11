@@ -139,11 +139,7 @@
 </template>
 
 <script>
-import {themeChange} from "theme-change"
 export default {
-  props: {
-    classes: String
-  },
   data() {
     return {
       DAISYUI_VERSION: process.env.DAISYUI_VERSION,
@@ -153,8 +149,9 @@ export default {
       demoPages: [],
       showMainMenu: false,
       newComponents: [
-        'table',
         'indicator',
+        'kbd',
+        'form-range',
       ],
       updatedComponents: [
         'navbar',
@@ -206,9 +203,6 @@ export default {
     $route () {
       this.$refs.drawerContent.scrollTop = 0;
     }
-  },
-  mounted(){
-    themeChange(false)
   },
   computed: {
     isHomepage() {

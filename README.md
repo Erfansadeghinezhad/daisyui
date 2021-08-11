@@ -46,7 +46,7 @@ Adds component classes like `btn`, `card` and more to Tailwind CSS
 ## 📀 Install now!  
 
 ```bash
-npm i daisyui --save
+npm i daisyui
 ```
 
 Then add DaisyUI to your `tailwind.config.js`  
@@ -73,7 +73,7 @@ Loading CSS files from CDN is not recommended for production. It's better to ins
   
 ```html
 <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.1/dist/tailwind.min.css" rel="stylesheet" type="text/css" />
-<link href="https://cdn.jsdelivr.net/npm/daisyui@1.10.0/dist/full.css" rel="stylesheet" type="text/css" />
+<link href="https://cdn.jsdelivr.net/npm/daisyui@1.11.1/dist/full.css" rel="stylesheet" type="text/css" />
 ```
 
 </details>
@@ -99,7 +99,7 @@ Use component classes like `btn`, `card`, etc… to build your UI.
 ---
 
 ## 📘 Documents + Examples  
-Read the documents for more info  
+Read the documents for more info:  
 [ [daisyui.com][docs-url] ↗︎ ]
 
 <details>
@@ -135,11 +135,13 @@ Read the documents for more info
   - [x] Text area
   - [x] Checkbox
   - [x] Radio
-  - [ ] Range slider
+  - [x] Range slider
   - [ ] Rating
   - [x] Toggle
   - [ ] Upload
 - [x] Hero
+- [x] Indicator
+- [x] Kbd
 - [x] Link
 - [ ] Loading
 - [x] Menu
@@ -192,13 +194,13 @@ Read the documents for more info
 [npm-url]: https://www.npmjs.com/package/daisyui
 [cdnjs-url]: https://cdnjs.com/libraries/daisyui
 [gh-url]: https://github.com/saadeghi/daisyui
-[tw-play-url]: https://play.tailwindcss.com/5du2H2Kyvq
+[tw-play-url]: https://play.tailwindcss.com/R74XalS4na
 [codepen-url]: https://codepen.io/saadeghi/pen/gOwWKvv
 [unpkg-url]: https://unpkg.com/browse/daisyui/
 [jsdeliver-url]: https://www.jsdelivr.com/package/npm/daisyui
 [build-url]: https://github.com/saadeghi/daisyui/actions
 [tweet-url]: https://twitter.com/intent/tweet?text=DaisyUI%20%0D%0AUI%20Components%20for%20Tailwind%20CSS%20%0D%0Ahttps://github.com/saadeghi/daisyui
-[number-of-components]: https://badgen.net/badge/components%20added/35/green
+[number-of-components]: https://badgen.net/badge/total%20components/38/green
 
 [docs-url-install]: https://daisyui.com/docs/install
 [docs-url]: https://daisyui.com/

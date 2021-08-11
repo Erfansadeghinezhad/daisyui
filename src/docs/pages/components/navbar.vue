@@ -5,7 +5,7 @@
         { class: 'navbar', desc: 'Container element' },
         { class: 'navbar-start', desc: 'Child element, fills 50% of width to be on start' },
         { class: 'navbar-center', desc: 'Child element, fills remaining space to be on center' },
-        { class: 'navbar-end', desc: 'Child element, fills 50% of width to be on en' },
+        { class: 'navbar-end', desc: 'Child element, fills 50% of width to be on end' },
       ]
     }"/>
     <Wrapper title="navbar" classes="flex flex-col space-y-2">
@@ -186,7 +186,7 @@
               DaisyUI
             </span>
           </div>
-          <div class="navbar-center hidden px-2 mx-2 lg:flex">
+          <div class="hidden px-2 mx-2 navbar-center lg:flex">
             <div class="flex items-stretch">
               <a class="btn btn-ghost btn-sm rounded-btn">
                 Home
@@ -223,3 +223,21 @@
 
   </div>
 </template>
+
+
+<script>
+export default {
+  head() {
+    return {
+      title: "daisyUI — Tailwind CSS navbar component",
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Tailwind CSS navbar component - Tailwind CSS navbar examples'
+        }
+      ]
+    }
+  }
+}
+</script>

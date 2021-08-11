@@ -20,7 +20,7 @@
       </p>
       <div class="w-full max-w-xl my-2">
         <div class="shadow-lg mockup-code">
-          <pre data-prefix="$"><code>npm i daisyui --save</code></pre>
+          <pre data-prefix="$"><code>npm i daisyui</code></pre>
         </div>
       </div>
 
@@ -54,9 +54,16 @@
 </template>
 <script>
 export default {
-  data() {
+  head() {
     return {
-      DAISYUI_VERSION: process.env.DAISYUI_VERSION,
+      title: "daisyUI — Install Tailwind CSS plugin",
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Tailwind CSS plugin for components - daisyUI'
+        }
+      ]
     }
   }
 }
